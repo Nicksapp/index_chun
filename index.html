@@ -1,0 +1,217 @@
+<!doctype html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+  <title>Hello Amaze UI</title>
+
+  <!-- Set render engine for 360 browser -->
+  <meta name="renderer" content="webkit">
+
+  <!-- No Baidu Siteapp-->
+  <meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+  <link rel="icon" type="image/png" href="assets/i/favicon.png">
+
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="icon" sizes="192x192" href="assets/i/app-icon72x72@2x.png">
+
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+  <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+
+  <!-- Tile icon for Win8 (144x144 + tile color) -->
+  <meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+  <meta name="msapplication-TileColor" content="#0e90d2">
+
+  <link rel="stylesheet" href="assets/css/amazeui.min.css">
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+
+
+<body>
+
+<!-- 导航栏部分 -->
+<header class="am-topbar am-topbar-inverse am-topbar-fixed-top">
+<div class="am-container">
+  <h1 class="am-topbar-brand">
+    <a href="#">春泥文化</a><!-- logo图片添加class="am-text-ir" -->
+  </h1> 
+
+   <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" data-am-collapse="{target: '#doc-topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>
+
+   <div id="doc-topbar-collapse" class="am-collapse am-topbar-collapse">
+     <ul class="am-nav am-nav-pills am-topbar-nav">
+       <li class="am-active"><a href="#">首页</a></li>
+       <li class="am-dropdown" data-am-dropdown>
+          <a href="javascript:;" class="am-dropdown-toggle" data-am-dropdown-toggle>文化苦旅 <span class="am-icon-caret-down"></span></a>  
+          <ul class="am-dropdown-content">
+            <li class="am-dropdown-header">文化苦旅</li>
+            <li><a href="">选项一</a></li>
+            <li><a href="">选项二</a></li>
+            <li><a href="">选项三</a></li>
+            <li class="am-divider"></li>
+            <li><a href="">其他</a></li>
+          </ul>
+       </li>
+       <li><a href="">精选酒店</a></li>
+       <li class="am-dropdown" data-am-dropdown>
+          <a href="javascript:;" class="am-dropdown-toggle" data-am-dropdown-toggle>浮生游记 <span class="am-icon-caret-down"></span></a>
+          <ul class="am-dropdown-content">
+            <li class="am-dropdown-header">浮生游记</li>
+            <li><a href="">选项一</a></li>
+            <li><a href="">选项二</a></li>
+            <li><a href="">选项三</a></li>
+            <li class="am-divider"></li>
+            <li><a href="">其他</a></li>
+          </ul>
+       </li>
+       <li><a href="">关于春泥</a></li>
+     </ul>
+
+    <div class="am-topbar-right">
+      <button class="am-btn am-btn-primary am-topbar-btn am-btn-sm">登录</button>
+      <button class="am-btn am-btn-primary am-topbar-btn am-btn-sm">注册</button>
+    </div>
+    <!-- <form action="" class="am-topbar-form am-topbar-right am-form-inline" role="search">
+       <div class="am-form-group">
+         <input type="text" class="am-form-field am-input-sm" placeholder="搜索">
+       </div>
+    </form> -->
+   </div>
+</div>
+</header>
+
+<!-- 图片轮播区 -->
+<div class="am-slider am-slider-default" data-am-flexslider="{playAfterPaused: 8000}" id="demo-slider-0">
+  <ul class="am-slides">
+    <li><a href=""><img src="http://s.amazeui.org/media/i/demos/bing-1.jpg" /></a></li>
+    <li><a href=""><img src="http://s.amazeui.org/media/i/demos/bing-2.jpg" /></a></li>
+    <li><a href=""><img src="http://s.amazeui.org/media/i/demos/bing-3.jpg" /></a></li>
+    <li><a href=""><img src="http://s.amazeui.org/media/i/demos/bing-4.jpg" /></a></li>
+  </ul>
+</div>
+
+<!-- 主体内容区 -->
+<div class="detail">
+  <div class="am-g am-container">
+    <div class="am-u-lg-12">
+      <h2 class="detail-h2">文化苦旅</h2>
+      <h3 class="detail-h2-1">若不去期待历史的震颤，便只有凛然安坐着的万古湖山了。</h3>
+
+      <div class="am-g">
+        <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
+
+          <h3 class="detail-h3">
+            <i class="am-icon-mobile am-icon-sm"></i>
+            标题一
+          </h3>
+
+          <p class="detail-p">
+            Amaze UI 采用业内先进的 mobile first 理念，从小屏逐步扩展到大屏，最终实现所有屏幕适配，适应移动互联潮流。
+          </p>
+        </div>
+        <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
+          <h3 class="detail-h3">
+            <i class="am-icon-cogs am-icon-sm"></i>
+            标题二
+          </h3>
+
+          <p class="detail-p">
+            Amaze UI 含近 20 个 CSS 组件、10 个 JS 组件，更有 17 款包含近 60 个主题的 Widgets，可快速构建界面出色、体验优秀的跨屏页面，大幅度提升你的开发效率。
+          </p>
+        </div>
+        <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
+          <h3 class="detail-h3">
+            <i class="am-icon-check-square-o am-icon-sm"></i>
+            标题三
+          </h3>
+
+          <p class="detail-p">
+            相比国外的前端框架，Amaze UI 专注解决中文排版优化问题，根据操作系统调整字体，实现最佳中文排版效果；针对国内主流浏览器及 App 内置浏览器提供更好的兼容性支持，为你节省大量兼容性调试时间。
+          </p>
+        </div>
+        <div class="am-u-lg-3 am-u-md-6 am-u-sm-12 detail-mb">
+          <h3 class="detail-h3">
+            <i class="am-icon-send-o am-icon-sm"></i>
+            标题四
+          </h3>
+
+          <p class="detail-p">
+            Amaze UI 非常注重性能，基于轻量的 Zepto.js 开发，并使用 CSS3 来做动画交互，平滑、高效，更适合移动设备，让你的 Web 应用可以高速载入。
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="culture">
+  <div class="am-g am-container">
+    <div class="am-u-lg-12">
+      <h2 class="detail-h2">浮生游记</h2>
+      <h3 class="detail-h2-1">浮生若梦，情之所钟之处，即为美景良辰</h3>
+      <ul class="am-avg-sm-2 am-avg-md-3 am-avg-lg-4 am-thumbnails">
+        <li><a href=""><img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-1.jpg" data-am-scrollspy="{animation: 'scale-up',delay: 100}"/></a></li>
+        <li><a href=""><img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-2.jpg" data-am-scrollspy="{animation: 'scale-up',delay: 200}"/></a></li>
+        <li><a href=""><img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-3.jpg" data-am-scrollspy="{animation: 'scale-up',delay: 300}"/></a></li>
+        <li><a href=""><img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-4.jpg" data-am-scrollspy="{animation: 'scale-up',delay: 400}"/></a></li>
+        <li><a href=""><img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-1.jpg" data-am-scrollspy="{animation: 'scale-up',delay: 500}"/></a></li>
+        <li><a href=""><img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-2.jpg" data-am-scrollspy="{animation: 'scale-up',delay: 600}"/></a></li>
+        <li><a href=""><img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-3.jpg" data-am-scrollspy="{animation: 'scale-up',delay: 700}"/></a></li>
+        <li><a href=""><img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-4.jpg" data-am-scrollspy="{animation: 'scale-up',delay: 800}"/></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- 底栏 -->
+<footer class="footer">
+    <div class="footer-container">
+      <div class="am-g">
+        <div class="am-u-lg-12 am-u-sm-centered">
+          <ul class="f-nav">
+            <li><a href="">关于我们</a></li>
+            <li><a href="">服务客户</a></li>
+            <li><a href="">合作伙伴</a></li>
+            <li><a href="">春泥团队</a></li>
+            <li><a href="">联系我们</a></li>
+            <li><a href="">加入我们</a></li>
+          </ul>
+
+          <div class="am-g">
+            <div class="am-u-lg-6 am-u-md-6 am-u-sm-12 detail-mb">
+              <p>信息区</p>
+            </div>
+            <div class="am-u-lg-6 am-u-md-6 am-u-sm-12 detail-mb">
+              <p>信息区</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="footer-btm">© 2014 <a href="http://www.yunshipei.com" target="_blank">AllMobilize, Inc.</a> Licensed under <a
+      href="http://opensource.org/licenses/MIT" target="_blank">MIT license</a>. by the AmazeUI Team.</p>
+</footer>
+<!--在这里编写你的代码-->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+<script src="assets/js/amazeui.min.js"></script>
+</body>
+</html>

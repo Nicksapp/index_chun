@@ -1,0 +1,94 @@
+/* Write your styles */
+
+/*logo图片的替换*/
+.am-topbar .am-text-ir{
+	display: block;
+	margin-right: 10px;
+	height: 50px;
+	width: 125px;
+	background: url(http://a.static.amazeui.org/assets/i/ui/logo.png) no-repeat left center;
+	-webkit-background-size: 125px 24px;
+  	background-size: 125px 24px;
+}
+.culture{
+	background: #0bb59b;
+	padding: 50px 0;
+}
+
+.detail {
+    background: #fff;
+}
+
+.detail-h2 {
+    text-align: center;
+    font-size: 150%;
+    margin: 40px 0;
+}
+
+.detail .detail-h2-1{
+	text-align: center;
+	margin: 20px 0;
+	color: #000;
+}
+
+.detail-h3 {
+    color: #1f8dd6;
+}
+
+.detail-p {
+    color: #7f8c8d;
+}
+
+.detail-mb {
+    margin-bottom: 30px;
+}
+
+.footer p{
+    color: #7f8c8d;
+    margin: 0;
+    padding: 15px 0;
+    text-align: center;
+}
+.footer .footer-btm{
+	background: #2d3e50;
+}
+
+.footer-container{
+	background: #383838;
+	padding: 70px 0;
+}
+
+.culture .detail-h2,.detail-h2-1{
+	color: #fff;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.footer{
+	text-align: center;
+}
+.footer ul{
+	display: block;
+	margin: 0 auto;
+	
+}
+.footer .f-nav li{
+	display: inline-block;
+	margin: 0 30px;
+
+}
+.footer .f-nav li a{
+	color: #fff;
+}
+
+.footer .f-nav li a:hover{
+	color: #00a1d6;
+}
+
+.am-slider{
+	margin-top: -51px;
+}
+.am-topbar{
+	background: rgba(0,0,0,0.2);
+	border: none;
+}
